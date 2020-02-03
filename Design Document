@@ -1,0 +1,24 @@
+For this project, I’ll be planning and implementing Html, CSS, and JavaScript into a travelers guide website for Metro Atlanta.
+
+1. Navigation Bar
+    a. Navbar must internally link to sections on the web page such as Home, outdoors, Explore the city, contact us, and about us.
+    b. Users should continue to see the navbar when scrolling through the page.
+    c. Nav elements should be highlighted when the user it at that section of the page
+
+2. Header
+    a. The header should contain an image as well as the title of the web page
+
+3. Outdoors
+    a. Outdoors will have 5 sections each with an image, paragraph, and a button.
+    b.Sections will be placed into 2 rows.first row containing 3/5 and the second row having 2 taking up the same amount of space as the 3 above it.
+
+4. Explore the city
+    a. The city will contain a banner with an image with a header and paragraph placed on top of the image which will be taking up the width of the page.
+    b. below the banner will be 4 columns with images, headers, and a paragraph.
+    c. one big column will be placed at the bottom of the city section.
+
+5. Contact Us
+    a. Contact us will contain a contact form where the user can enter their name, email, subject, and a message
+
+6. About us 
+    a. It should contain website and copyright info.
