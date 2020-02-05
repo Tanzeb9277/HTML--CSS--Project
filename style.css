@@ -1,0 +1,173 @@
+/*  #383E4C
+    #F2F2F2
+
+
+
+*/
+
+html{}
+
+body{
+    margin: 0 0;
+}
+/*Nav bar style*/
+
+nav{
+    z-index: 1;
+}
+ul{
+    
+    text-align: center;
+    background-color: #383E4C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    /*position: fixed;*/
+    width: 100%;
+}
+li{
+    font-size: 24px;
+    display: inline;
+    padding: 15px;
+    
+    color: white !important;
+    border: solid 1px white;
+}
+
+li:hover{
+    background-color: #49505F;
+    color: #383E4C !important;
+}
+
+a{
+    text-decoration: none !important;
+    color: white;
+}
+
+
+header{}
+
+.img-container{
+    position: relative;
+    text-align: center;
+}
+
+#text {
+  font-size: 46px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.outdoors{
+    width: 85%;
+    margin: auto;
+}
+.row1{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.row1 .Container {
+    display: inline-block;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    
+}
+
+.row2{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.row2 .Container{
+    display: inline-block;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+
+
+.caption{
+    color: aliceblue;
+    position: absolute;
+    top: 255%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 32px;
+}
+
+.caption p{
+    font-size:24px;
+}
+.city{
+    width: 85%;
+    margin: auto;
+}
+.row3{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.row3 .Container {
+    display: inline-block;
+    max-width: 280px;
+    padding: 7px;
+    background-color: #F2F2F2;
+    
+}
+
+.row4{
+    text-align: center;
+}
+
+.row4 .Container {
+    display: inline-block;
+    max-width: 1080px;
+    max-height: 850px;
+  
+    background-color: #F2F2F2;
+    margin-bottom: 15px;
+    
+}
+.contact{
+    text-align: center;
+    width: 100%;
+    background-image: url(Imgs/FormBackground.jpg);
+    margin: 0;
+    
+}
+form {
+  
+  padding: 10px;
+  margin: 10px 0;
+  width: 600px;
+}
+
+form > div {
+  margin: 10px 0;
+}
+
+.inline label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  width: 400px;
+}
+footer{
+    margin: 0;
+    background-color: aliceblue;
+    text-align: center;
+    height: 70px;
+    
+}
+footer p{
+    padding-top: 15px;
+    margin: 0;
+}
