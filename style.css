@@ -14,6 +14,8 @@ body{
 
 nav{
     z-index: 1;
+    width: 100%;
+    position: fixed;
 }
 ul{
     
@@ -45,7 +47,21 @@ a{
 }
 
 
-header{}
+
+header{
+  background-image: url("Imgs/Atlanta.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .img-container{
     position: relative;
@@ -76,6 +92,11 @@ header{}
     
 }
 
+.row1 .Container img{
+    height: 230px;
+    max-height: 230px;
+}
+
 .row2{
     padding-bottom: 15px;
     text-align: center;
@@ -88,16 +109,31 @@ header{}
     background-color: #F2F2F2;
 }
 
+.row2 .Container img{
+    height: 380px;
+    max-height: 380px;
+}
 
 
+.mid {
+  /* The image used */
+  background-image: url("Imgs/City.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .caption{
+    position: relative;
     color: aliceblue;
-    position: absolute;
-    top: 255%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 32px;
+    top: 35%;
 }
 
 .caption p{
@@ -120,6 +156,11 @@ header{}
     
 }
 
+.row3 .Container img{
+    height: 200px;
+    max-height: 380px;
+}
+
 .row4{
     text-align: center;
 }
@@ -137,11 +178,15 @@ header{}
     text-align: center;
     width: 100%;
     background-image: url(Imgs/FormBackground.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
+    
     
 }
 form {
-  
+  display: inline-block;
   padding: 10px;
   margin: 10px 0;
   width: 600px;
